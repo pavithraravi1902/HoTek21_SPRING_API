@@ -1,0 +1,19 @@
+buildscript {
+    ext {
+        springBootVersion = '3.4.5'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+    }
+}
+
+allprojects {
+    group = 'com.hotek21'
+    version = '1.0-SNAPSHOT'
+    repositories {
+        mavenCentral()
+    }
+}

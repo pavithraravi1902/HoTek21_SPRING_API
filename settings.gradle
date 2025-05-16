@@ -1,0 +1,10 @@
+rootProject.name = 'hotek21_backend'
+
+include 'destination-service'
+include 'city-service'
+include 'hotel-service'
+include 'booking-service'
+include 'guest-service'
+include 'payment-service'
+include 'common-db-utils'
+
