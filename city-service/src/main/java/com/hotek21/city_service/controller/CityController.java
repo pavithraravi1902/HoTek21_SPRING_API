@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/hotek21/cities")
+@CrossOrigin(origins = "http://localhost:3000")
 public class CityController {
 
     @Autowired
